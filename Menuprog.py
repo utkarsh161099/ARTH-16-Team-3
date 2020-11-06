@@ -13,7 +13,7 @@ For tasks related to AWS-Cloud press 'c'
 For tasks related to Hadoop press 'd'
 For tasks related to Ansible press 'e'
 """)
-task=input("Enter your choice: ").lower()
+ch=input("Enter your choice: ").lower()
 def Task_Linux():
 	print('''
 	press 1: To show today's date
@@ -222,7 +222,7 @@ def Task_Linux():
 			print("Not supported in this !!")
 	os.system("tput setaf 7")
 
-if(task=='a'):
+if(ch=='a'):
 	Task_Linux()
 	os.system("tput setaf 7")
 #elif task == 'b':
