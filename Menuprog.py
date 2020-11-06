@@ -18,14 +18,14 @@ ch = input("Enter your choice: ").lower()
 if(ch == 'a'):
     Task_Linux()
     os.system("tput setaf 7")
-# elif task == 'b':
+# elif ch == 'b':
 
     # code
-# elif task=='c':
+# elif ch=='c':
     # code
-# elif task=='d':
+# elif ch=='d':
     # code
-# elif task=='e':
+# elif ch=='e':
     # code
 # else:
 #	print("Not Supported !!!")
