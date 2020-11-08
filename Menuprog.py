@@ -1,6 +1,7 @@
 import os
 import subprocess as sp
 from linux import *
+from aws import *
 
 print("Welcome to my Tools")
 print("~~~~"*15)
@@ -18,7 +19,9 @@ ch = input("Enter your choice: ").lower()
 if(ch == 'a'):
     Task_Linux()
     os.system("tput setaf 7")
-# elif task == 'b':
+elif(ch == 'b'):
+    aws_infra()
+    os.system("tput setaf 7")
 
     # code
 # elif task=='c':
